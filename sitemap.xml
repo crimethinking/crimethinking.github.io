@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://duy.io/articles/</loc>
+  </url><url>
+    <loc>https://duy.io/categories/</loc>
+  </url><url>
+    <loc>https://duy.io/contact/</loc>
+  </url><url>
+    <loc>https://duy.io/</loc>
+  </url><url>
+    <loc>https://duy.io/projects/math-brain-trainer/</loc>
+  </url><url>
+    <loc>https://duy.io/projects/</loc>
+  </url><url>
+    <loc>https://duy.io/articles/article/</loc>
+  </url><url>
+    <loc>https://duy.io/tags/</loc>
+  </url>
+</urlset>

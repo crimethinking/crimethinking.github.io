@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Contact on duy.io</title>
+    <link>https://duy.io/contact/</link>
+    <description>Recent content in Contact on duy.io</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>This site is owned and operated by Van Khanh Duy Nguyen</copyright><atom:link href="https://duy.io/contact/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
