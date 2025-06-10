@@ -1,0 +1,48 @@
+site_name: Duy
+site_url: https://duy.io
+
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: lime
+      accent: lime
+      toggle:
+        icon: material/brightness-3
+        name: Light mode
+  font: false
+  features:
+    - navigation.expand
+    - navigation.indexes
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.tabs
+    - navigation.tabs.sticky
+
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+plugins:
+  - blog
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/crimethinking
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/duyngn
+
+extra_javascript:
+  - https://unpkg.com/tablesort@5.6.0/dist/tablesort.min.js
+  - js/tablesort.js
