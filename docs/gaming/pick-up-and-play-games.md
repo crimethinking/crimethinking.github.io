@@ -9,8 +9,8 @@ So portable, it even runs on paper. Digitally speaking, [sudoku.coach](https://s
 best out there
 
 ## Bejeweled 3
-The original PC version is an incredible time sink. Not sure how are the mobile versions doing nowadays; last
-I remember they were infested with IAPs and nags
+The original PC version is an incredible time sink. Not sure how the mobile versions are doing nowadays; last
+I remember they were IAP-infested
 
 ## Tetris
 * 1st place: Tetris DS. The GOAT
