@@ -3,6 +3,9 @@ site_url: https://duy.io
 
 theme:
   name: material
+  font:
+    text: Inter
+    code: JetBrains Mono
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -18,7 +21,6 @@ theme:
       toggle:
         icon: material/brightness-3
         name: Light mode
-  font: false
   features:
     - navigation.expand
     - navigation.indexes
