@@ -40,6 +40,10 @@ markdown_extensions:
 
 plugins:
   - blog
+  - git-revision-date-localized:
+      enabled: true
+      type: iso_date
+      strict: true
 
 extra:
   social:
