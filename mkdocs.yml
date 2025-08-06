@@ -53,5 +53,5 @@ extra:
       link: https://linkedin.com/in/duyngn
 
 extra_javascript:
-  - https://unpkg.com/tablesort@5.6.0/dist/tablesort.min.js
+  - https://unpkg.com/tablesort
   - js/tablesort.js
