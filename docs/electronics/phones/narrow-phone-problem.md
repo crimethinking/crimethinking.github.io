@@ -19,6 +19,7 @@ Below is a list of phones with their height-to-width ratios, and their 16:9 view
 | Apple iPhone 15 Pro Max | 2023 | 2.085 | 5.70" |
 | Apple iPhone 16 Pro Max | 2024 | 2.101 | :fontawesome-regular-circle-question: |
 | Google Pixel XL | 2016 | 2.044 | 5.50" |
+| Honor 90 Pro | 2023 | 2.187 | :fontawesome-regular-circle-question: |
 | Huawei Ascend Mate 2 | 2014 | 1.901 | 6.00" |
 | Huawei Mate 8 | 2015 | 1.949 | 5.90" |
 | Huawei Mate 9 | 2016 | 1.989 | 5.90" |
@@ -27,6 +28,7 @@ Below is a list of phones with their height-to-width ratios, and their 16:9 view
 | Huawei Mate 70 Pro | 2024 | 2.070 | :fontawesome-regular-circle-question: |
 | Motorola Nexus 6 | 2014 | 1.919 | 5.90" |
 | OnePlus 3T | 2016 | 2.044 | 5.40" |
+| OnePlus 15 | 2025 | 2.104 | 5.78" |
 | Oppo Find X6 Pro | 2023 | 2.163 | :fontawesome-regular-circle-question: |
 | Oppo Find X8 Ultra | 2025 | 2.124 | :fontawesome-regular-circle-question: |
 | Samsung Galaxy Note 2 | 2012 | 1.877 | 5.40" |
@@ -37,6 +39,7 @@ Below is a list of phones with their height-to-width ratios, and their 16:9 view
 | Samsung Galaxy Note 8 | 2017 | 2.173 | :fontawesome-regular-circle-question: |
 | Samsung Galaxy Note 9 | 2018 | 2.119 | :fontawesome-regular-circle-question: |
 | Samsung Galaxy S24 Ultra | 2024 | 2.054 | :fontawesome-regular-circle-question: |
+| Samsung Galaxy S25 Edge | 2025 | 2.093 | :fontawesome-regular-circle-question: |
 | Samsung Galaxy S25 Ultra | 2025 | 2.098 | 5.80" |
 | Sony Xperia 10 V | 2023 | 2.279 | 4.86" |
 | vivo X Note | 2022 | 2.102 | :fontawesome-regular-circle-question: |
