@@ -3,9 +3,7 @@ site_url: https://duy.io
 
 theme:
   name: material
-  font:
-    text: Inter
-    code: JetBrains Mono
+  font: false
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -44,6 +42,8 @@ plugins:
       enabled: true
       type: iso_date
       strict: true
+  - optimize:
+      enabled: !ENV [CI, false]
 
 extra:
   social:
