@@ -18,6 +18,16 @@ I remember they were IAP-infested
 * 3rd place: Tetris DX. It just feels right
 * Honorable mention(s): Tetris Effect
 
+## Action RPGs (with caveats)
+Blasting through hordes of mobs can be very fun. Avoid grinding and minmaxing, those suck the fun out of ARPGs
+
+* Path of Exile 1
+    * [Pohx's Righteous Fire](https://pohx.net) is perfect for fun slaughtering
+* Diablo 4
+    * This is very contentious. All of my friends with jobs, wives, children like this slop. I have all of
+    those too, but other than the smooth combat I can't bring myself to play it, D4 feels even more
+    chore-like than doing the dishes. YMMV
+
 ## Modern roguelites
 * Brotato
 * Vampire Survivors
