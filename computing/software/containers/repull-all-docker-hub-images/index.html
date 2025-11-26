@@ -956,6 +956,8 @@
       
         
       
+        
+      
     
     
     
@@ -1052,6 +1054,98 @@
   
 
       </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_2_3_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_2_3_3" id="__nav_3_2_3_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PowerShell
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_3_2_3_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2_3_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    PowerShell
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../windows/powershell/set-caps-lock-to-ctrl/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Set Caps Lock to Ctrl
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
     </li>
   
 
@@ -1615,8 +1709,8 @@
 
 <h1 id="repull-all-docker-hub-images">Repull all Docker Hub images</h1>
 <p>One-liner to repull all Docker Hub images. Replace <code>podman</code> with <code>docker</code> if you use <code>docker</code>:</p>
-<div class="highlight"><pre><span></span><code>podman<span class="w"> </span>images<span class="w"> </span>--format<span class="w"> </span><span class="s1">&#39;{{.Repository}}:{{.Tag}}&#39;</span><span class="w"> </span><span class="s1">&#39;docker*/*/*&#39;</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>xargs<span class="w"> </span>-L1<span class="w"> </span>podman<span class="w"> </span>pull
-</code></pre></div>
+<div class="highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Bash</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-0-1">1</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1"></a>podman<span class="w"> </span>images<span class="w"> </span>--format<span class="w"> </span><span class="s1">&#39;{{.Repository}}:{{.Tag}}&#39;</span><span class="w"> </span><span class="s1">&#39;docker*/*/*&#39;</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>xargs<span class="w"> </span>-L1<span class="w"> </span>podman<span class="w"> </span>pull
+</code></pre></div></td></tr></table></div>
 
 
 
