@@ -11,6 +11,11 @@ How to install `winget` & Windows Terminal on Windows 10 LTSC 2021 (21H2 build 1
         * `Microsoft.VCLibs.140.00.UWPDesktop_<version>_<arch>__8wekyb3d8bbwe.appx`
         * `Microsoft.VCLibs.140.00_<version>_<arch>__8wekyb3d8bbwe.appx`
         * `Microsoft.WindowsAppRuntime.1.8_<version>_<arch>__8wekyb3d8bbwe.msix`
+
+        !!! question "What is `8wekyb3d8bbwe`?"
+            [Microsoft's publisher ID](https://learn.microsoft.com/en-us/windows/apps/desktop/modernize/package-identity-overview#package-family-name).
+            [Source](https://superuser.com/a/1685558)
+
     * Install them with `Add-AppxPackage <path to package>` in an admin PowerShell session
     * Reboot
 
