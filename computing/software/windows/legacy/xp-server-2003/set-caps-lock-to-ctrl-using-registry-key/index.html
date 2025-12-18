@@ -8,13 +8,13 @@
       
       
       
-        <link rel="canonical" href="https://duy.io/computing/software/windows/legacy/xp-server-2003/use-classic-windows-theme-for-login-logoff-ui/">
+        <link rel="canonical" href="https://duy.io/computing/software/windows/legacy/xp-server-2003/set-caps-lock-to-ctrl-using-registry-key/">
       
       
-        <link rel="prev" href="../set-caps-lock-to-ctrl-using-registry-key/">
+        <link rel="prev" href="../sata-hba-controller-drivers/">
       
       
-        <link rel="next" href="../use-consolas-as-windows-console-font/">
+        <link rel="next" href="../use-classic-windows-theme-for-login-logoff-ui/">
       
       
         
@@ -25,7 +25,7 @@
     
     
       
-        <title>Use classic Windows theme for login/logoff UI - Duy</title>
+        <title>Set Caps Lock to Ctrl using registry key - Duy</title>
       
     
     
@@ -76,7 +76,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#use-classic-windows-theme-for-loginlogoff-ui" class="md-skip">
+        <a href="#set-caps-lock-to-ctrl-using-registry-key" class="md-skip">
           Skip to content
         </a>
       
@@ -112,7 +112,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Use classic Windows theme for login/logoff UI
+              Set Caps Lock to Ctrl using registry key
             
           </span>
         </div>
@@ -1201,34 +1201,6 @@
                 
   
   
-  
-  
-    <li class="md-nav__item">
-      <a href="../set-caps-lock-to-ctrl-using-registry-key/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Set Caps Lock to Ctrl using registry key
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
     
   
   
@@ -1248,7 +1220,7 @@
   <span class="md-ellipsis">
     
   
-    Use classic Windows theme for login/logoff UI
+    Set Caps Lock to Ctrl using registry key
   
 
     
@@ -1258,6 +1230,34 @@
 
       </a>
       
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../use-classic-windows-theme-for-login-logoff-ui/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Use classic Windows theme for login/logoff UI
+  
+
+    
+  </span>
+  
+  
+
+      </a>
     </li>
   
 
@@ -1955,23 +1955,19 @@
 
 
 
-<h1 id="use-classic-windows-theme-for-loginlogoff-ui">Use classic Windows theme for login/logoff UI</h1>
-<p>The switchover from Luna theme to classic in XP is jarring. To make XP login/logoff UI
-looking like that of Server 2003, <a href="http://wp.xin.at/archives/5621">use the <code>at.exe</code> trick and set the <code>SYSTEM</code> account
-theme to classic</a>. Massive shoutout to Thrawn</p>
+<h1 id="set-caps-lock-to-ctrl-using-registry-key">Set Caps Lock to Ctrl using registry key</h1>
 <ul>
-<li>Launch a <code>cmd</code> with admin rights, run <code>at.exe &lt;time + 1 minute&gt; /interactive "cmd.exe"</code>
-to launch another <code>cmd</code> with <code>SYSTEM</code> privileges</li>
-<li>Kill <code>explorer.exe</code> using Task Manager</li>
-<li>Use the <code>SYSTEM</code> CLI to spawn an <code>explorer.exe</code> shell</li>
-<li>Set whatever visual settings you want to. I use classic</li>
-<li>Logoff</li>
+<li>Save the following code block as a <code>.reg</code> registry key and import it:
+<div class="highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Reg</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-0-1">1</a></span>
+<span class="normal"><a href="#__codelineno-0-2">2</a></span>
+<span class="normal"><a href="#__codelineno-0-3">3</a></span>
+<span class="normal"><a href="#__codelineno-0-4">4</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1"></a>Windows Registry Editor Version 5.00
+<a id="__codelineno-0-2" name="__codelineno-0-2"></a>
+<a id="__codelineno-0-3" name="__codelineno-0-3"></a><span class="k">[</span><span class="nb">HKEY_LOCAL_MACHINE</span><span class="k">\SYSTEM\CurrentControlSet\Control\Keyboard Layout]</span>
+<a id="__codelineno-0-4" name="__codelineno-0-4"></a><span class="na">&quot;Scancode Map&quot;</span><span class="o">=</span><span class="nv">hex</span><span class="p">:</span><span class="m">00,00,00,00,00,00,00,00,02,00,00,00,1d,00,3a,00,00,00,00,00</span><span class="w"> </span>
+</code></pre></div></td></tr></table></div></li>
+<li>Reboot</li>
 </ul>
-<div class="admonition failure">
-<p class="admonition-title"><a href="http://wp.xin.at/archives/5621#comment-173806">Tweak UI method</a></p>
-<p>Did not work. Copying user settings over to <code>SYSTEM</code> with Tweak UI created
-a mishmash of Luna and classic that was even more jarring</p>
-</div>
 
 
 
@@ -1992,7 +1988,7 @@ a mishmash of Luna and classic that was even more jarring</p>
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="December 18, 2025 06:40:45 UTC">2025-12-18</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="December 18, 2025 16:54:38 UTC">2025-12-18</span>
   </span>
 
     
