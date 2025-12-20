@@ -51,6 +51,10 @@ plugins:
       strict: true
   - optimize:
       enabled: !ENV [CI, false]
+  - social:
+      enabled: !ENV [CI, false]
+      cards_layout_options:
+        font_family: Inter
 
 extra:
   social:
