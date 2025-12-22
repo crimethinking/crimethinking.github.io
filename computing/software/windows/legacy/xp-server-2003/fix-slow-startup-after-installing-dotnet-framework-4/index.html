@@ -8,13 +8,13 @@
       
       
       
-        <link rel="canonical" href="https://duy.io/computing/software/windows/legacy/xp-server-2003/sata-hba-controller-drivers/">
+        <link rel="canonical" href="https://duy.io/computing/software/windows/legacy/xp-server-2003/fix-slow-startup-after-installing-dotnet-framework-4/">
       
       
-        <link rel="prev" href="../list-of-software-with-xp-server-2003-support/">
+        <link rel="prev" href="../../../install-winget-windows-terminal-on-windows-10-ltsc-2021/">
       
       
-        <link rel="next" href="../set-caps-lock-to-ctrl-using-registry-key/">
+        <link rel="next" href="../list-of-software-with-xp-server-2003-support/">
       
       
         
@@ -25,7 +25,7 @@
     
     
       
-        <title>SATA/HBA controller drivers - Duy</title>
+        <title>Fix slow startup after installing .NET Framework 4 - Duy</title>
       
     
     
@@ -76,7 +76,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#satahba-controller-drivers" class="md-skip">
+        <a href="#fix-slow-startup-after-installing-net-framework-4" class="md-skip">
           Skip to content
         </a>
       
@@ -112,7 +112,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              SATA/HBA controller drivers
+              Fix slow startup after installing .NET Framework 4
             
           </span>
         </div>
@@ -1177,10 +1177,19 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../fix-slow-startup-after-installing-dotnet-framework-4/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -1196,6 +1205,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -1233,19 +1243,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../sata-hba-controller-drivers/" class="md-nav__link">
         
   
   
@@ -1261,7 +1262,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -2173,19 +2173,17 @@
 
 
 
-<h1 id="satahba-controller-drivers">SATA/HBA controller drivers</h1>
-<p>Slipstreaming AHCI SATA/HBA controller drivers into XP/Server 2003 installation media using
-nLite is already very well-documented, so I'm not gonna go over that again. But what drivers
-to slipstream?</p>
-<p>Intel AHCI/RAID controller:</p>
+<h1 id="fix-slow-startup-after-installing-net-framework-4">Fix slow startup after installing .NET Framework 4</h1>
+<p>I noticed that my XP installation booted very slowly after installing .NET Framework 4.
+After logging in, everything (including networking) hung for about 90-120 seconds before
+startup entries and networking got started</p>
+<p><a href="https://msfn.org/board/topic/178206-slow-logon-bug-caused-by-net-framework-ngen-how-to-fix/">Thanks to shorterxp on MSFN for the original tip</a></p>
 <ul>
-<li><a href="https://winraid.level1techs.com/t/25310">Generic textmode drivers version 11.2.0.1006 modded and signed by Fernando</a>,
-worked on my Gigabyte B75M-D3H motherboard (Intel B75 chipset)</li>
-</ul>
-<p>LSI SAS 2308/9207-8i/9217-8i HBA:</p>
-<ul>
-<li><a href="https://www.dell.com/support/home/en-us/drivers/driversdetails?driverid=ccgm0">Dell driver for Precision **610 workstations</a>,
-worked on my Inspur YPCB-00227-1P2 (rebranded LSI SAS 9207-8i) HBA</li>
+<li>Install .NET Framework 4 and all updates including those for other .NET Framework versions</li>
+<li>Execute <code>C:\WINDOWS\Microsoft.NET\Framework(64)\&lt;version&gt;\ngen.exe executeQueuedItems</code>
+to compile native images for .NET assemblies (4 on my installation, for .NET Framework 2 and 4
+in <code>amd64</code> and <code>x86</code>)</li>
+<li>Stop and disable all <code>.NET Framework NGEN</code> services (4 on my installation)</li>
 </ul>
 
 
@@ -2207,7 +2205,7 @@ worked on my Inspur YPCB-00227-1P2 (rebranded LSI SAS 9207-8i) HBA</li>
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="December 18, 2025 06:40:45 UTC">2025-12-18</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="December 22, 2025 17:30:46 UTC">2025-12-22</span>
   </span>
 
     
