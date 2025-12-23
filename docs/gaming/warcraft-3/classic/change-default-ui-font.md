@@ -1,10 +1,7 @@
-# Change default UI font (WC3 1.29.2 and below)
+# Change default UI font
 Classic Warcraft III's default Friz Quadrata TT font does not support Unicode characters, so
 map names with them do not show up properly. We are gonna change a registry key to tell WC3
 to load external fonts
-
-!!! warning
-    Only applicable to WC3 version 1.29.2 and below
 
 ![Before and after UI font change](img/wc3-before-after-ui-font-change.png)
 
@@ -15,7 +12,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Blizzard Entertainment\Warcraft III]
 "Allow Local Files"="dword:00000001"
 ```
-* Make a folder named `Fonts` in your WC3 folder
+* Make a folder named `Fonts` in your [WC3 root folder](https://www.hiveworkshop.com/threads/local-files.330849/)
 
 * Copy whatever Unicode font you want to replace the default UI font with into `Fonts`.
 I use HCR Dotum Bold personally
