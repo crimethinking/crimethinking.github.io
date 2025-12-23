@@ -1,7 +1,10 @@
-# Change default UI font
+# Change default UI font (WC3 1.29.2 and below)
 Classic Warcraft III's default Friz Quadrata TT font does not support Unicode characters, so
 map names with them do not show up properly. We are gonna change a registry key to tell WC3
 to load external fonts
+
+!!! warning
+    Only applicable to WC3 version 1.29.2 and below
 
 ![Before and after UI font change](img/wc3-before-after-ui-font-change.png)
 
