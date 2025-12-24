@@ -2,78 +2,82 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://duy.io/</loc>
-         <lastmod>2025-12-23</lastmod>
+         <lastmod>2025-12-24</lastmod>
     </url>
     <url>
          <loc>https://duy.io/blog/</loc>
-         <lastmod>2025-12-23</lastmod>
+         <lastmod>2025-12-24</lastmod>
     </url>
     <url>
          <loc>https://duy.io/computing/hardware/networking/brocade-switches/</loc>
-         <lastmod>2025-12-23</lastmod>
+         <lastmod>2025-12-24</lastmod>
     </url>
     <url>
          <loc>https://duy.io/computing/software/ansible/boolean-values/</loc>
-         <lastmod>2025-12-23</lastmod>
+         <lastmod>2025-12-24</lastmod>
     </url>
     <url>
          <loc>https://duy.io/computing/software/containers/repull-all-docker-hub-images/</loc>
-         <lastmod>2025-12-23</lastmod>
+         <lastmod>2025-12-24</lastmod>
     </url>
     <url>
          <loc>https://duy.io/computing/software/windows/add-sublime-text-merge-windows-context-menus/</loc>
-         <lastmod>2025-12-23</lastmod>
+         <lastmod>2025-12-24</lastmod>
     </url>
     <url>
          <loc>https://duy.io/computing/software/windows/install-winget-windows-terminal-on-windows-10-ltsc-2021/</loc>
-         <lastmod>2025-12-23</lastmod>
+         <lastmod>2025-12-24</lastmod>
     </url>
     <url>
          <loc>https://duy.io/computing/software/windows/legacy/xp-server-2003/fix-slow-startup-after-installing-dotnet-framework-4/</loc>
-         <lastmod>2025-12-23</lastmod>
+         <lastmod>2025-12-24</lastmod>
     </url>
     <url>
          <loc>https://duy.io/computing/software/windows/legacy/xp-server-2003/list-of-software-with-xp-server-2003-support/</loc>
-         <lastmod>2025-12-23</lastmod>
+         <lastmod>2025-12-24</lastmod>
     </url>
     <url>
          <loc>https://duy.io/computing/software/windows/legacy/xp-server-2003/sata-hba-controller-drivers/</loc>
-         <lastmod>2025-12-23</lastmod>
+         <lastmod>2025-12-24</lastmod>
     </url>
     <url>
          <loc>https://duy.io/computing/software/windows/legacy/xp-server-2003/set-caps-lock-to-ctrl-using-registry-key/</loc>
-         <lastmod>2025-12-23</lastmod>
+         <lastmod>2025-12-24</lastmod>
     </url>
     <url>
          <loc>https://duy.io/computing/software/windows/legacy/xp-server-2003/use-classic-windows-theme-for-login-logoff-ui/</loc>
-         <lastmod>2025-12-23</lastmod>
+         <lastmod>2025-12-24</lastmod>
     </url>
     <url>
          <loc>https://duy.io/computing/software/windows/legacy/xp-server-2003/use-consolas-as-windows-console-font/</loc>
-         <lastmod>2025-12-23</lastmod>
+         <lastmod>2025-12-24</lastmod>
     </url>
     <url>
          <loc>https://duy.io/computing/software/windows/powershell/set-caps-lock-to-ctrl/</loc>
-         <lastmod>2025-12-23</lastmod>
+         <lastmod>2025-12-24</lastmod>
     </url>
     <url>
          <loc>https://duy.io/electronics/phones/narrow-phone-problem/</loc>
-         <lastmod>2025-12-23</lastmod>
+         <lastmod>2025-12-24</lastmod>
     </url>
     <url>
          <loc>https://duy.io/gaming/pick-up-and-play-games/</loc>
-         <lastmod>2025-12-23</lastmod>
+         <lastmod>2025-12-24</lastmod>
     </url>
     <url>
          <loc>https://duy.io/gaming/diablo-2/classic/essential-dll-mods/</loc>
-         <lastmod>2025-12-23</lastmod>
+         <lastmod>2025-12-24</lastmod>
     </url>
     <url>
          <loc>https://duy.io/gaming/diablo-2/resurrected/my-d2rmm-mods/</loc>
-         <lastmod>2025-12-23</lastmod>
+         <lastmod>2025-12-24</lastmod>
+    </url>
+    <url>
+         <loc>https://duy.io/gaming/warcraft-3/classic/avoid-1.31.x-patches/</loc>
+         <lastmod>2025-12-24</lastmod>
     </url>
     <url>
          <loc>https://duy.io/gaming/warcraft-3/classic/change-default-ui-font/</loc>
-         <lastmod>2025-12-23</lastmod>
+         <lastmod>2025-12-24</lastmod>
     </url>
 </urlset>
