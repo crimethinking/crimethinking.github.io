@@ -29,6 +29,6 @@ jobs:
           path: .cache 
           restore-keys: |
             mkdocs-material-
-      - run: pip install mkdocs-material mkdocs-git-revision-date-localized-plugin mkdocs-awesome-nav
+      - run: pip install mkdocs-material mkdocs-git-revision-date-localized-plugin mkdocs-awesome-nav cairosvg Pillow
       - run: sudo apt-get install -y pngquant
       - run: mkdocs gh-deploy --force
